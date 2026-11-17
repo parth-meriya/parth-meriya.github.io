@@ -1,26 +1,41 @@
 # Parth Meriya - Portfolio
 
-Static portfolio website built with HTML, CSS and JavaScript (no frameworks, no build step).
+Personal portfolio website of Parth Meriya, Python Full Stack Developer.
 
-## Structure
+- 🌐 **Live Website:** [https://parth-meriya.github.io](https://parth-meriya.github.io)
+- 🐙 **GitHub:** [https://github.com/parth-meriya](https://github.com/parth-meriya)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/parth-meriya](https://www.linkedin.com/in/parth-meriya)
+- 📧 **Email:** [parthmeriya222@gmail.com](mailto:parthmeriya222@gmail.com)
+
+---
+
+## 📂 Project Structure
+
 ```
-index.html              page content
-css/style.css           all styling (dark/light themes, responsive)
-js/main.js              navigation, theme toggle, contact links, form
-assets/images/          project screenshots (add profile.jpg for your photo)
-assets/favicon.svg      browser tab icon
-resume/                 Parth_Meriya_Resume.pdf (download button points here)
+├── index.html              # Main webpage and layout
+├── css/
+│   └── style.css           # Styling, dark/light theme, typography, responsive rules
+├── js/
+│   └── main.js             # Interactions, theme toggle, contact links, dynamic bindings
+├── assets/
+│   ├── favicon.svg         # Tab icon
+│   └── images/             # Project screenshots & profile images
+└── resume/
+    └── Parth_Meriya_Resume.pdf  # Downloadable resume
 ```
 
-## Customise
-- Contact links and resume path: edit the `CFG` object at the top of `js/main.js`.
-- Profile photo: save it as `assets/images/profile.jpg`.
-- Replace the resume: overwrite `resume/Parth_Meriya_Resume.pdf` with the same file name.
-- Project links: add a GitHub or Live Demo button inside each project card in `index.html` once repositories are public.
+## 🚀 Running Locally
 
-## Run locally
-Open `index.html` in a browser, or run `python3 -m http.server` in this folder and visit http://localhost:8000.
+Open `index.html` directly in any web browser, or start a local Python HTTP server:
 
-## Deploy
-Upload the whole folder to Vercel, Netlify, GitHub Pages or Render (static site). Set the publish directory to the project root; no build command is needed.
-"# parth-meriya.github.io" 
+```bash
+python -m http.server 8000
+```
+
+Then navigate to `http://localhost:8000` in your browser.
+
+## 🚢 Deployment
+
+Hosted via **GitHub Pages** from the `main` branch:
+- Repository: `https://github.com/parth-meriya/parth-meriya.github.io`
+- Live Domain: `https://parth-meriya.github.io`
